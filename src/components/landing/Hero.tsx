@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import heroVideo from "@/assets/hero-bg.mp4.asset.json";
 
 const words = ["Run", "Workout", "Fitness", "Bodybuilding", "Strength"];
 
@@ -39,7 +38,7 @@ export function Hero() {
     <section id="home" className="relative overflow-hidden bg-black pt-28 pb-16 lg:pt-32 lg:pb-24">
       {/* Background video */}
       <video
-        src={heroVideo.url}
+        src={"\\src\\assets\\WhatsApp Video 2026-06-03 at 22.54.33.mp4"}
         autoPlay
         loop
         muted
