@@ -38,7 +38,7 @@ export function Hero() {
     <section id="home" className="relative overflow-hidden bg-black pt-28 pb-16 lg:pt-32 lg:pb-24">
       {/* Background video */}
       <video
-        src={"\\src\\assets\\WhatsApp Video 2026-06-03 at 22.54.33.mp4"}
+        src={"\\public\\videos\\gym-video.mp4"}
         autoPlay
         loop
         muted
